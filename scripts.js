@@ -83,7 +83,7 @@ function generateLevel() {
 
   // Show & hide them
   showActiveCards();
-  setTimeout(hideActiveCards, 2 * 1000);
+  setTimeout(hideActiveCards, pairsPerLevel * 1000);
 }
 
 function refreshGrid() {
